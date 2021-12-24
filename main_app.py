@@ -1,8 +1,9 @@
 import streamlit as st
 import joblib
+import pickle
+
 
 def main() :
-    vectorizer = joblib.load('data/Yelp_vectorizer.pkl')
-    classifier = joblib.load('data/Yelp_classifier.pkl')
+    pass
 
 if __name__ == '__main__' : main()
